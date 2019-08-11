@@ -1,18 +1,18 @@
 {
-  "name": "cezerin2-client",
+  "name": "vamshop-client",
   "version": "0.35.0",
-  "description": "Cezerin2 API client library. Work on browser and server.",
+  "description": "VamShop API client library. Work on browser and server.",
   "keywords": [
-    "cezerin2",
-    "cezerin",
-    "cezerin api",
-    "cezerin ajax",
-    "cezerin web store",
+    "vamshop",
+    "vamshop cms",
+    "vamshop api",
+    "vamshop ajax",
+    "vamshop web store",
     "ecommerce api",
     "shopping cart api"
   ],
-  "homepage": "https://cezerin.com",
-  "bugs": "https://github.com/cezerin2/client/issues",
+  "homepage": "https://vamshop.com",
+  "bugs": "https://github.com/vamshop/vamshop-client/issues",
   "license": "MIT",
   "author": {
     "name": "Restmount <jsonmount@gmail.com>",
@@ -35,7 +35,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cezerin2/client"
+    "url": "https://github.com/vamshop/vamshop-client"
   },
   "scripts": {
     "build": "babel src -d lib",
