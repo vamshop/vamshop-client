@@ -1,27 +1,26 @@
-# Cezerin2 API client library
+# VamShop API client library
 
-Allows asynchronous requests to Cezerin2 REST API and get results with native Promise or async/await. Work on browser and server.
-This is based from Cezerin-client
+Allows asynchronous requests to VamShop REST API and get results with native Promise or async/await. Work on browser and server.
 
 Client include:
-- Cezerin2 API
-- Cezerin2 AJAX API
-- Cezerin2 Web Store API
+- VamShop API
+- VamShop AJAX API
+- VamShop Web Store API
 
 
 Install with:
 
 ```
-npm i cezerin2-client
+npm i vamshop-client
 ```
 
 
 ## Initialize
 
 ```javascript
-import CezerinClient from 'cezerin2-client';
+import VamshopClient from 'vamshop-client';
 
-const api = new CezerinClient({
+const api = new VamshopClient({
   apiBaseUrl: 'https://website.com/api/v1',
   apiToken: '<token>'
 });
